@@ -1,0 +1,334 @@
+foreign_keys:
+  - parent_table: groups
+    parent_column: group_id
+    child_table: group_members
+    child_column: group_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: group_members
+    child_column: user_id
+    type: "1:N"
+  - parent_table: groups
+    parent_column: group_id
+    child_table: spaces
+    child_column: owner_group_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: spaces
+    child_column: created_by
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: pages
+    child_column: space_key
+    type: "1:N"
+  - parent_table: pages
+    parent_column: page_id
+    child_table: pages
+    child_column: parent_page_id
+    type: "1:N"
+  - parent_table: templates
+    parent_column: template_id
+    child_table: pages
+    child_column: template_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: pages
+    child_column: creator_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: pages
+    child_column: last_modified_by
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: blogs
+    child_column: space_key
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: blogs
+    child_column: author_id
+    type: "1:N"
+  - parent_table: pages
+    parent_column: page_id
+    child_table: attachments
+    child_column: page_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: attachments
+    child_column: uploader_id
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: templates
+    child_column: scope_space_key
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: templates
+    child_column: owner_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: labels
+    child_column: created_by
+    type: "1:N"
+  - parent_table: labels
+    parent_column: label_id
+    child_table: label_applications
+    child_column: label_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: approvals
+    child_column: requester_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: audit_trails
+    child_column: actor_user_id
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: space_permissions
+    child_column: space_key
+    type: "1:N"
+  - parent_table: pages
+    parent_column: page_id
+    child_table: page_restrictions
+    child_column: page_id
+    type: "1:N"
+  - parent_table: page_restrictions
+    parent_column: restriction_id
+    child_table: page_restriction_subjects
+    child_column: restriction_id
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: workflows
+    child_column: space_key
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: workflows
+    child_column: enabled_by
+    type: "1:N"
+  - parent_table: workflows
+    parent_column: workflow_id
+    child_table: workflow_instances
+    child_column: workflow_id
+    type: "1:N"
+  - parent_table: pages
+    parent_column: page_id
+    child_table: workflow_instances
+    child_column: page_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: workflow_instances
+    child_column: started_by
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: workflow_instances
+    child_column: last_transition_by
+    type: "1:N"
+  - parent_table: workflow_instances
+    parent_column: instance_id
+    child_table: workflow_transitions
+    child_column: instance_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: workflow_transitions
+    child_column: actor_user_id
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: integrations
+    child_column: scope_space_key
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: integrations
+    child_column: configured_by
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: calendars
+    child_column: space_key
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: calendars
+    child_column: created_by
+    type: "1:N"
+  - parent_table: calendars
+    parent_column: calendar_id
+    child_table: calendar_events
+    child_column: calendar_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: calendar_events
+    child_column: created_by
+    type: "1:N"
+  - parent_table: spaces
+    parent_column: space_key
+    child_table: reports
+    child_column: scope_space_key
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: reports
+    child_column: requested_by
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: migration_plans
+    child_column: created_by
+    type: "1:N"
+  - parent_table: migration_plans
+    parent_column: plan_id
+    child_table: migration_plan_items
+    child_column: plan_id
+    type: "1:N"
+  - parent_table: migration_plans
+    parent_column: plan_id
+    child_table: migration_validations
+    child_column: plan_id
+    type: "1:N"
+  - parent_table: users
+    parent_column: user_id
+    child_table: notifications
+    child_column: created_by
+    type: "1:N"
+
+generic_foreign_keys:
+  - child_table: label_applications
+    type_column: applied_to_type
+    id_column: applied_to_id
+    mapping:
+      page:
+        parent_table: pages
+        parent_column: page_id
+      blog:
+        parent_table: blogs
+        parent_column: blog_id
+      attachment:
+        parent_table: attachments
+        parent_column: attachment_id
+  - child_table: audit_trails
+    type_column: reference_type
+    id_column: reference_id
+    mapping:
+      user:
+        parent_table: users
+        parent_column: user_id
+      group:
+        parent_table: groups
+        parent_column: group_id
+      space:
+        parent_table: spaces
+        parent_column: space_key
+      page:
+        parent_table: pages
+        parent_column: page_id
+      blog:
+        parent_table: blogs
+        parent_column: blog_id
+      attachment:
+        parent_table: attachments
+        parent_column: attachment_id
+      template:
+        parent_table: templates
+        parent_column: template_id
+      label:
+        parent_table: labels
+        parent_column: label_id
+      workflow:
+        parent_table: workflows
+        parent_column: workflow_id
+      permission:
+        parent_table: global_permissions
+        parent_column: grant_id
+      integration:
+        parent_table: integrations
+        parent_column: integration_id
+      calendar:
+        parent_table: calendars
+        parent_column: calendar_id
+      report:
+        parent_table: reports
+        parent_column: report_id
+      migration:
+        parent_table: migration_plans
+        parent_column: plan_id
+      notification:
+        parent_table: notifications
+        parent_column: notification_id
+  - child_table: global_permissions
+    type_column: subject_type
+    id_column: subject_id
+    mapping:
+      user:
+        parent_table: users
+        parent_column: user_id
+      group:
+        parent_table: groups
+        parent_column: group_id
+  - child_table: space_permissions
+    type_column: subject_type
+    id_column: subject_id
+    mapping:
+      user:
+        parent_table: users
+        parent_column: user_id
+      group:
+        parent_table: groups
+        parent_column: group_id
+  - child_table: page_restriction_subjects
+    type_column: subject_type
+    id_column: subject_id
+    mapping:
+      user:
+        parent_table: users
+        parent_column: user_id
+      group:
+        parent_table: groups
+        parent_column: group_id
+  - child_table: notifications
+    type_column: recipient_type
+    id_column: recipient_id
+    mapping:
+      user:
+        parent_table: users
+        parent_column: user_id
+      group:
+        parent_table: groups
+        parent_column: group_id
+  - child_table: notifications
+    type_column: class
+    id_column: reference_id
+    mapping:
+      space:
+        parent_table: spaces
+        parent_column: space_key
+      page:
+        parent_table: pages
+        parent_column: page_id
+      template:
+        parent_table: templates
+        parent_column: template_id
+      workflow:
+        parent_table: workflows
+        parent_column: workflow_id
+      integration:
+        parent_table: integrations
+        parent_column: integration_id

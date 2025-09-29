@@ -1,0 +1,246 @@
+enums:
+  users:
+    role:
+      - platform_owner
+      - space_admin
+      - content_owner
+      - compliance
+      - kgc
+      - executive_sponsor
+      - standard_user
+    status:
+      - active
+      - suspended
+      - deactivated
+
+  spaces:
+    type:
+      - team
+      - department
+      - project
+      - knowledge
+    status:
+      - active
+      - archived
+
+  pages:
+    status:
+      - current
+      - archived
+
+  blogs:
+    status:
+      - published
+      - archived
+
+  attachments:
+    status:
+      - available
+      - deleted
+
+  templates:
+    scope:
+      - global
+      - space
+    sensitivity:
+      - normal
+      - official
+    status:
+      - active
+      - deprecated
+
+  label_applications:
+    applied_to_type:
+      - page
+      - blog
+      - attachment
+
+  approvals:
+    required_role:
+      - platform_owner
+      - space_admin
+      - content_owner
+      - compliance
+      - kgc
+      - executive_sponsor
+      - migration_lead
+    status:
+      - valid
+      - invalid
+      - expired
+
+  audit_trails:
+    action:
+      - entity_discovery
+      - space_create
+      - space_update
+      - space_archive_merge
+      - page_create
+      - page_update
+      - page_restrict
+      - template_manage
+      - file_manage
+      - label_manage
+      - search
+      - workflow_enable
+      - workflow_transition
+      - group_manage
+      - permission_manage
+      - integration_manage
+      - calendar_manage
+      - report_generate
+      - migration_plan
+      - migration_run
+      - migration_validate
+      - notification_dispatch
+    reference_type:
+      - user
+      - group
+      - space
+      - page
+      - blog
+      - attachment
+      - template
+      - label
+      - workflow
+      - permission
+      - integration
+      - calendar
+      - report
+      - migration
+      - notification
+
+  global_permissions:
+    subject_type:
+      - user
+      - group
+    permission:
+      - administer
+      - analytics
+      - integration_manage
+
+  space_permissions:
+    subject_type:
+      - user
+      - group
+    permission:
+      - space_admin
+      - view
+      - add_page
+      - edit
+      - delete
+      - manage_restrictions
+
+  page_restrictions:
+    restriction_type:
+      - none
+      - edit_only
+      - view_and_edit
+
+  page_restriction_subjects:
+    subject_type:
+      - user
+      - group
+
+  workflow_instances:
+    status:
+      - in_review
+      - approved
+      - rejected
+      - changes_requested
+
+  workflow_transitions:
+    transition:
+      - approve
+      - reject
+      - request_changes
+
+  integrations:
+    integration_type:
+      - jira
+      - slack
+      - teams
+      - drive
+      - sharepoint
+      - analytics
+    scope:
+      - global
+      - space
+    status:
+      - active
+      - disabled
+      - failed
+
+  calendar_events:
+    event_type:
+      - meeting
+      - deadline
+      - milestone
+      - other
+
+  reports:
+    report_type:
+      - top_pages
+      - active_spaces
+      - stale_content
+      - trend
+    scope:
+      - global
+      - space
+    status:
+      - pending
+      - completed
+      - failed
+
+  migration_plans:
+    stage:
+      - test
+      - production
+    user_migration_mode:
+      - all
+      - related_only
+    status:
+      - draft
+      - ready
+      - running
+      - completed
+      - failed
+
+  migration_plan_items:
+    item_type:
+      - templates
+      - spaces
+      - attachments
+      - users_groups
+      - apps
+
+  migration_validations:
+    check_name:
+      - unique_users
+      - version_ok
+      - storage_tiers_ok
+      - public_space_reviewed
+      - heap_bandwidth_ok
+      - apps_ready
+    result:
+      - pass
+      - fail
+
+  notifications:
+    recipient_type:
+      - user
+      - group
+    type:
+      - alert
+      - report
+      - reminder
+    class:
+      - space
+      - page
+      - template
+      - workflow
+      - integration
+    status:
+      - pending
+      - sent
+      - failed

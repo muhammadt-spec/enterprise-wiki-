@@ -1,0 +1,72 @@
+{
+  "1": {
+    "attachment_id": "1",
+    "page_id": "2",
+    "filename": "someone.png",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "size_bytes": 72055,
+    "uploader_id": "12",
+    "uploaded_at": "2025-06-04T21:53:05.693051",
+    "status": "available"
+  },
+  "2": {
+    "attachment_id": "2",
+    "page_id": "3",
+    "filename": "forget.tiff",
+    "mime_type": "application/pdf",
+    "size_bytes": 123384,
+    "uploader_id": "2",
+    "uploaded_at": "2025-09-06T21:53:05.693051",
+    "status": "available"
+  },
+  "3": {
+    "attachment_id": "3",
+    "page_id": "3",
+    "filename": "rate.txt",
+    "mime_type": "text/plain",
+    "size_bytes": 10245,
+    "uploader_id": "9",
+    "uploaded_at": "2025-08-19T21:53:05.694050",
+    "status": "available"
+  },
+  "4": {
+    "attachment_id": "4",
+    "page_id": "4",
+    "filename": "we.ods",
+    "mime_type": "image/png",
+    "size_bytes": 340684,
+    "uploader_id": "1",
+    "uploaded_at": "2025-06-26T21:53:05.694050",
+    "status": "available"
+  },
+  "5": {
+    "attachment_id": "5",
+    "page_id": "5",
+    "filename": "camera.webm",
+    "mime_type": "application/pdf",
+    "size_bytes": 115043,
+    "uploader_id": "7",
+    "uploaded_at": "2025-08-17T21:53:05.694050",
+    "status": "available"
+  },
+  "6": {
+    "attachment_id": "6",
+    "page_id": "5",
+    "filename": "attack.gif",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "size_bytes": 110979,
+    "uploader_id": "3",
+    "uploaded_at": "2025-06-12T21:53:05.694050",
+    "status": "deleted"
+  },
+  "7": {
+    "attachment_id": "7",
+    "page_id": "6",
+    "filename": "per.doc",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "size_bytes": 80270,
+    "uploader_id": "2",
+    "uploaded_at": "2025-06-20T21:53:05.694050",
+    "status": "available"
+  }
+}

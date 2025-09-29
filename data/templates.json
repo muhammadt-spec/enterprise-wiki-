@@ -1,0 +1,74 @@
+{
+  "1": {
+    "template_id": "1",
+    "name": "Under Template",
+    "scope": "space",
+    "scope_space_key": "1",
+    "owner_id": "9",
+    "sensitivity": "official",
+    "status": "active",
+    "requires_annual_review": false,
+    "created_at": "2025-05-27T21:53:05.692055",
+    "updated_at": "2025-05-29T19:33:05.692055"
+  },
+  "2": {
+    "template_id": "2",
+    "name": "Serious Template",
+    "scope": "space",
+    "scope_space_key": "2",
+    "owner_id": "8",
+    "sensitivity": "normal",
+    "status": "active",
+    "requires_annual_review": true,
+    "created_at": "2025-03-01T21:53:05.692055",
+    "updated_at": "2025-03-02T04:19:05.692055"
+  },
+  "3": {
+    "template_id": "3",
+    "name": "Forward Template",
+    "scope": "space",
+    "scope_space_key": "1",
+    "owner_id": "11",
+    "sensitivity": "official",
+    "status": "active",
+    "requires_annual_review": true,
+    "created_at": "2024-10-26T21:53:05.692055",
+    "updated_at": "2024-10-27T02:01:05.692055"
+  },
+  "4": {
+    "template_id": "4",
+    "name": "Difference Template",
+    "scope": "global",
+    "scope_space_key": null,
+    "owner_id": "9",
+    "sensitivity": "normal",
+    "status": "active",
+    "requires_annual_review": false,
+    "created_at": "2025-02-08T21:53:05.692055",
+    "updated_at": "2025-02-10T02:41:05.692055"
+  },
+  "5": {
+    "template_id": "5",
+    "name": "Reality Template",
+    "scope": "global",
+    "scope_space_key": null,
+    "owner_id": "8",
+    "sensitivity": "normal",
+    "status": "active",
+    "requires_annual_review": true,
+    "created_at": "2024-12-18T21:53:05.692055",
+    "updated_at": "2024-12-19T01:20:05.692055"
+  },
+  "6": {
+    "template_id": "6",
+    "name": "Money Template",
+    "scope": "space",
+    "scope_space_key": "4",
+    "owner_id": "4",
+    "sensitivity": "official",
+    "status": "deprecated",
+    "requires_annual_review": true,
+    "created_at": "2025-03-04T21:53:05.692055",
+    "updated_at": "2025-03-05T09:07:05.692055"
+  }
+}

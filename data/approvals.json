@@ -1,0 +1,47 @@
+{
+  "1": {
+    "approval_code": "1",
+    "requester_id": "2",
+    "required_role": "space_admin",
+    "status": "valid",
+    "issued_at": "2025-06-18T21:53:05.695053",
+    "expires_at": "2025-08-21T21:53:05.695053",
+    "notes": ""
+  },
+  "2": {
+    "approval_code": "2",
+    "requester_id": "1",
+    "required_role": "migration_lead",
+    "status": "valid",
+    "issued_at": "2025-07-16T21:53:05.695053",
+    "expires_at": "2025-08-26T21:53:05.695053",
+    "notes": ""
+  },
+  "3": {
+    "approval_code": "3",
+    "requester_id": "8",
+    "required_role": "kgc",
+    "status": "valid",
+    "issued_at": "2025-07-02T21:53:05.695053",
+    "expires_at": "2025-09-17T21:53:05.695053",
+    "notes": ""
+  },
+  "4": {
+    "approval_code": "4",
+    "requester_id": "10",
+    "required_role": "compliance",
+    "status": "valid",
+    "issued_at": "2025-06-13T21:53:05.695053",
+    "expires_at": "2025-08-26T21:53:05.695053",
+    "notes": ""
+  },
+  "5": {
+    "approval_code": "5",
+    "requester_id": "3",
+    "required_role": "compliance",
+    "status": "valid",
+    "issued_at": "2025-06-22T21:53:05.695053",
+    "expires_at": "2025-08-31T21:53:05.695053",
+    "notes": ""
+  }
+}

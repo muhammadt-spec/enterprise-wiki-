@@ -1,0 +1,105 @@
+interface_1:
+  set:
+    - create_new_audit_trail
+    - transfer_to_human
+    - manage_space
+    - manage_page
+    - manage_label
+    - manage_restrictions
+    - manage_file
+    - manage_calendar
+    - create_notification
+  get:
+    - approval_lookup
+    - discover_user_entities
+    - discover_group_entities
+    - discover_space_entities
+    - discover_page_entities
+    - discover_file_entities
+    - discover_template_entities
+    - discover_label_entities
+    - discover_calendar_entities
+interface_2:
+  set:
+    - audit_trail_write
+    - escalate_to_human
+    - space_create
+    - page_write
+    - label_apply_or_remove
+    - restriction_set_update
+    - file_ops
+    - calendar_ops
+    - notification_create
+  get:
+    - approval_check
+    - user_find
+    - group_find
+    - space_find
+    - page_find
+    - file_find
+    - template_find
+    - label_find
+    - calendar_find
+interface_3:
+  set:
+    - audit_log_create
+    - escalate_to_agent
+    - space_new
+    - page_manage
+    - label_update
+    - restriction_update
+    - file_manage
+    - calendar_manage
+    - notification_send
+  get:
+    - auth_approval_verify
+    - user_lookup
+    - group_lookup
+    - space_lookup
+    - page_lookup
+    - file_lookup
+    - template_lookup
+    - label_lookup
+    - calendar_lookup
+interface_4:
+  set:
+    - audit_entry_create
+    - escalate_to_operator
+    - page_editor
+    - label_editor
+    - restriction_editor
+    - attachment_manager
+    - calendar_manager
+    - notification_dispatch
+    - space_register
+  get:
+    - approval_gate_validate
+    - user_search
+    - group_search
+    - space_search
+    - page_search
+    - attachment_search
+    - template_search
+    - calendar_search
+    - label_search
+interface_5:
+  set:
+    - audit_record_create
+    - route_to_operator
+    - space_create_entry
+    - page_controller
+    - label_controller
+    - restriction_controller
+    - attachment_controller
+    - calendar_controller
+    - notification_controller
+  get:
+    - approval_role_check
+    - user_discover
+    - group_discover
+    - space_discover
+    - page_discover
+    - attachment_discover
+    - template_discover
+    - calendar_discover
+    - label_discover

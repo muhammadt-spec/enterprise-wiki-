@@ -1,0 +1,42 @@
+{
+  "1": {
+    "space_key": "1",
+    "name": "Development Workspace",
+    "type": "knowledge",
+    "owner_group_id": "1",
+    "status": "active",
+    "created_by": "12",
+    "created_at": "2025-07-22T21:53:05.692055",
+    "updated_at": "2025-07-24T11:24:05.692055"
+  },
+  "2": {
+    "space_key": "2",
+    "name": "White Hub",
+    "type": "knowledge",
+    "owner_group_id": "3",
+    "status": "active",
+    "created_by": "9",
+    "created_at": "2025-04-19T21:53:05.692055",
+    "updated_at": "2025-04-21T19:44:05.692055"
+  },
+  "3": {
+    "space_key": "3",
+    "name": "Yes Docs",
+    "type": "knowledge",
+    "owner_group_id": "4",
+    "status": "active",
+    "created_by": "9",
+    "created_at": "2025-08-24T21:53:05.692055",
+    "updated_at": "2025-08-24T23:19:05.692055"
+  },
+  "4": {
+    "space_key": "4",
+    "name": "Our Hub",
+    "type": "team",
+    "owner_group_id": "5",
+    "status": "active",
+    "created_by": "4",
+    "created_at": "2025-05-31T21:53:05.692055",
+    "updated_at": "2025-06-01T00:01:05.692055"
+  }
+}

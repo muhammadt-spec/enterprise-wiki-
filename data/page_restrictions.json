@@ -1,0 +1,23 @@
+{
+  "1": {
+    "restriction_id": "1",
+    "page_id": "2",
+    "restriction_type": "none",
+    "set_by": "10",
+    "set_at": "2025-08-29T21:53:05.696051"
+  },
+  "2": {
+    "restriction_id": "2",
+    "page_id": "7",
+    "restriction_type": "edit_only",
+    "set_by": "6",
+    "set_at": "2025-09-04T21:53:05.696051"
+  },
+  "3": {
+    "restriction_id": "3",
+    "page_id": "6",
+    "restriction_type": "edit_only",
+    "set_by": "7",
+    "set_at": "2025-08-31T21:53:05.696051"
+  }
+}

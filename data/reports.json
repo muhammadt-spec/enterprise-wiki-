@@ -1,0 +1,50 @@
+{
+  "1": {
+    "report_id": "1",
+    "report_type": "active_spaces",
+    "scope": "space",
+    "scope_space_key": "3",
+    "requested_by": "12",
+    "status": "completed",
+    "date_range_start": "2024-11-27",
+    "date_range_end": "2025-09-26",
+    "generated_at": "2025-08-20T10:53:05.696051",
+    "created_at": "2025-08-19T21:53:05.696051"
+  },
+  "2": {
+    "report_id": "2",
+    "report_type": "top_pages",
+    "scope": "space",
+    "scope_space_key": "2",
+    "requested_by": "5",
+    "status": "completed",
+    "date_range_start": "2025-08-02",
+    "date_range_end": "2025-09-26",
+    "generated_at": "2025-09-27T09:53:05.696051",
+    "created_at": "2025-09-25T21:53:05.696051"
+  },
+  "3": {
+    "report_id": "3",
+    "report_type": "stale_content",
+    "scope": "global",
+    "scope_space_key": null,
+    "requested_by": "11",
+    "status": "completed",
+    "date_range_start": "2024-06-03",
+    "date_range_end": "2025-09-26",
+    "generated_at": "2025-08-01T23:53:05.696051",
+    "created_at": "2025-08-01T21:53:05.696051"
+  },
+  "4": {
+    "report_id": "4",
+    "report_type": "top_pages",
+    "scope": "space",
+    "scope_space_key": "3",
+    "requested_by": "3",
+    "status": "completed",
+    "date_range_start": "2024-08-12",
+    "date_range_end": "2025-09-26",
+    "generated_at": "2025-09-23T12:53:05.696051",
+    "created_at": "2025-09-22T21:53:05.696051"
+  }
+}

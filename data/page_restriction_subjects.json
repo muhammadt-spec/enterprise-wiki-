@@ -1,0 +1,12 @@
+{
+  "2": {
+    "restriction_id": "2",
+    "subject_type": "user",
+    "subject_id": "5"
+  },
+  "3": {
+    "restriction_id": "3",
+    "subject_type": "user",
+    "subject_id": "2"
+  }
+}

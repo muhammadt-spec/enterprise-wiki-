@@ -1,0 +1,122 @@
+{
+  "1": {
+    "user_id": "1",
+    "full_name": "Allison Hill",
+    "email": "allison.hill13@acme.co",
+    "role": "space_admin",
+    "status": "active",
+    "timezone": "Europe/London",
+    "created_at": "2024-10-14T21:53:05.671227",
+    "updated_at": "2024-10-16T14:11:05.671227"
+  },
+  "2": {
+    "user_id": "2",
+    "full_name": "Noah Rhodes",
+    "email": "noah.rhodes@workspace.io",
+    "role": "space_admin",
+    "status": "active",
+    "timezone": "Asia/Karachi",
+    "created_at": "2024-12-12T21:53:05.671227",
+    "updated_at": "2024-12-14T22:45:05.671227"
+  },
+  "3": {
+    "user_id": "3",
+    "full_name": "Angie Henderson",
+    "email": "angie.henderson6874@outlook.com",
+    "role": "content_owner",
+    "status": "active",
+    "timezone": "America/New_York",
+    "created_at": "2025-07-06T21:53:05.686055",
+    "updated_at": "2025-07-07T21:06:05.686055"
+  },
+  "4": {
+    "user_id": "4",
+    "full_name": "Daniel Wagner",
+    "email": "daniel.wagner2548@example.com",
+    "role": "platform_owner",
+    "status": "active",
+    "timezone": "UTC",
+    "created_at": "2025-04-02T21:53:05.687053",
+    "updated_at": "2025-04-05T04:58:05.687053"
+  },
+  "5": {
+    "user_id": "5",
+    "full_name": "Cristian Santos",
+    "email": "cristian.santos@contoso.com",
+    "role": "platform_owner",
+    "status": "active",
+    "timezone": "UTC",
+    "created_at": "2024-12-04T21:53:05.688055",
+    "updated_at": "2024-12-06T21:58:05.688055"
+  },
+  "6": {
+    "user_id": "6",
+    "full_name": "Connie Lawrence",
+    "email": "connie.lawrence@acme.co",
+    "role": "platform_owner",
+    "status": "active",
+    "timezone": "America/New_York",
+    "created_at": "2025-03-15T21:53:05.688055",
+    "updated_at": "2025-03-17T04:50:05.688055"
+  },
+  "7": {
+    "user_id": "7",
+    "full_name": "Abigail Shaffer",
+    "email": "abigail.shaffer2665@workspace.io",
+    "role": "executive_sponsor",
+    "status": "active",
+    "timezone": "America/Los_Angeles",
+    "created_at": "2024-11-18T21:53:05.689059",
+    "updated_at": "2024-11-20T10:20:05.689059"
+  },
+  "8": {
+    "user_id": "8",
+    "full_name": "Gina Moore",
+    "email": "gina.moore2678@acme.co",
+    "role": "executive_sponsor",
+    "status": "active",
+    "timezone": "UTC",
+    "created_at": "2024-10-10T21:53:05.689059",
+    "updated_at": "2024-10-13T07:25:05.689059"
+  },
+  "9": {
+    "user_id": "9",
+    "full_name": "Gabrielle Davis",
+    "email": "gabrielle.davis3753@contoso.com",
+    "role": "content_owner",
+    "status": "deactivated",
+    "timezone": "Europe/London",
+    "created_at": "2025-04-17T21:53:05.690059",
+    "updated_at": "2025-04-19T18:37:05.690059"
+  },
+  "10": {
+    "user_id": "10",
+    "full_name": "Ryan Munoz",
+    "email": "ryan.munoz6483@workspace.io",
+    "role": "content_owner",
+    "status": "deactivated",
+    "timezone": "Asia/Karachi",
+    "created_at": "2024-12-12T21:53:05.690059",
+    "updated_at": "2024-12-15T00:52:05.690059"
+  },
+  "11": {
+    "user_id": "11",
+    "full_name": "Monica Herrera",
+    "email": "monica.herrera7020@acme.co",
+    "role": "space_admin",
+    "status": "active",
+    "timezone": "UTC",
+    "created_at": "2025-01-08T21:53:05.691052",
+    "updated_at": "2025-01-09T04:05:05.691052"
+  },
+  "12": {
+    "user_id": "12",
+    "full_name": "Jamie Arnold",
+    "email": "jamie.arnold29@workspace.io",
+    "role": "standard_user",
+    "status": "active",
+    "timezone": "Europe/London",
+    "created_at": "2025-03-12T21:53:05.691052",
+    "updated_at": "2025-03-14T14:33:05.691052"
+  }
+}
