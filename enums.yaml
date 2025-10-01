@@ -1,162 +1,114 @@
 enums:
   users:
-    role:
-      - platform_owner
-      - space_admin
-      - content_owner
-      - compliance
-      - kgc
-      - executive_sponsor
-      - standard_user
     status:
-      - active
-      - suspended
-      - deactivated
+      - Active
+      - Suspended
+      - Deactivated
 
   spaces:
     type:
-      - team
-      - department
-      - project
-      - knowledge
+      - Team
+      - Department
+      - Project
+      - Knowledge
     status:
-      - active
-      - archived
+      - Active
+      - Suspended
+      - Deactivated
 
   pages:
+    type:
+      - Standard
+      - Policy
+      - SOP
+      - Landing
+      - Archive
+      - Other
     status:
-      - current
-      - archived
+      - Draft
+      - Published
+      - Archived
+    workflow_state:
+      - Proposed
+      - In_Review
+      - Approved
+      - Rejected
+      - Retired
 
-  blogs:
-    status:
-      - published
-      - archived
-
-  attachments:
-    status:
-      - available
-      - deleted
+  labels:
+    scope:
+      - Global
+      - Space
 
   templates:
     scope:
-      - global
-      - space
+      - Global
+      - Space
     sensitivity:
-      - normal
-      - official
+      - Normal
+      - Official
     status:
-      - active
-      - deprecated
+      - Active
+      - Deprecated
 
-  label_applications:
-    applied_to_type:
-      - page
-      - blog
-      - attachment
-
-  approvals:
-    required_role:
-      - platform_owner
-      - space_admin
-      - content_owner
-      - compliance
-      - kgc
-      - executive_sponsor
-      - migration_lead
-    status:
-      - valid
-      - invalid
-      - expired
-
-  audit_trails:
-    action:
-      - entity_discovery
-      - space_create
-      - space_update
-      - space_archive_merge
-      - page_create
-      - page_update
-      - page_restrict
-      - template_manage
-      - file_manage
-      - label_manage
-      - search
-      - workflow_enable
-      - workflow_transition
-      - group_manage
-      - permission_manage
-      - integration_manage
-      - calendar_manage
-      - report_generate
-      - migration_plan
-      - migration_run
-      - migration_validate
-      - notification_dispatch
-    reference_type:
-      - user
-      - group
-      - space
-      - page
-      - blog
-      - attachment
-      - template
-      - label
-      - workflow
-      - permission
-      - integration
-      - calendar
-      - report
-      - migration
-      - notification
-
-  global_permissions:
-    subject_type:
-      - user
-      - group
-    permission:
-      - administer
-      - analytics
-      - integration_manage
-
-  space_permissions:
-    subject_type:
-      - user
-      - group
-    permission:
-      - space_admin
-      - view
-      - add_page
-      - edit
-      - delete
-      - manage_restrictions
-
-  page_restrictions:
-    restriction_type:
+  restriction_sets:
+    type:
       - none
       - edit_only
       - view_and_edit
 
-  page_restriction_subjects:
+  restriction_subject_users:
+    perm:
+      - view
+      - edit
+
+  restriction_subject_groups:
+    perm:
+      - view
+      - edit
+
+  permission_sets:
+    level:
+      - Global
+      - Space
+      - Page
+
+  permission_grants:
     subject_type:
       - user
       - group
+    action:
+      - view
+      - edit
+      - delete
+      - admin
+      - comment
+      - attach
 
-  workflow_instances:
-    status:
-      - in_review
-      - approved
-      - rejected
-      - changes_requested
+  workflows:
+    scope:
+      - Global
+      - Space
 
   workflow_transitions:
-    transition:
+    action:
+      - submit
       - approve
       - reject
       - request_changes
+      - publish
+      - retire
+
+  calendar_events:
+    event_type:
+      - Meeting
+      - Milestone
+      - Release
+      - Holiday
+      - Other
 
   integrations:
-    integration_type:
+    type:
       - jira
       - slack
       - teams
@@ -164,19 +116,12 @@ enums:
       - sharepoint
       - analytics
     scope:
-      - global
-      - space
+      - Global
+      - Space
     status:
-      - active
-      - disabled
-      - failed
-
-  calendar_events:
-    event_type:
-      - meeting
-      - deadline
-      - milestone
-      - other
+      - Active
+      - Disabled
+      - Error
 
   reports:
     report_type:
@@ -185,51 +130,10 @@ enums:
       - stale_content
       - trend
     scope:
-      - global
-      - space
-    status:
-      - pending
-      - completed
-      - failed
-
-  migration_plans:
-    stage:
-      - test
-      - production
-    user_migration_mode:
-      - all
-      - related_only
-    status:
-      - draft
-      - ready
-      - running
-      - completed
-      - failed
-
-  migration_plan_items:
-    item_type:
-      - templates
-      - spaces
-      - attachments
-      - users_groups
-      - apps
-
-  migration_validations:
-    check_name:
-      - unique_users
-      - version_ok
-      - storage_tiers_ok
-      - public_space_reviewed
-      - heap_bandwidth_ok
-      - apps_ready
-    result:
-      - pass
-      - fail
+      - Global
+      - Space
 
   notifications:
-    recipient_type:
-      - user
-      - group
     type:
       - alert
       - report
@@ -241,6 +145,105 @@ enums:
       - workflow
       - integration
     status:
-      - pending
-      - sent
+      - Queued
+      - Sent
+      - Failed
+
+  migration_plans:
+    stage:
+      - test
+      - production
+    user_migration_mode:
+      - all
+      - related_only
+    status:
+      - draft
+      - running
+      - completed
       - failed
+
+  audit_trail:
+    result:
+      - success
+      - failure
+
+  services:
+    business_criticality:
+      - Low
+      - Medium
+      - High
+      - Critical
+    status:
+      - Active
+      - Retired
+
+  configuration_items:
+    ci_type:
+      - App
+      - Service
+      - Server
+      - DB
+      - Network
+      - Storage
+      - Endpoint
+      - Other
+    environment:
+      - Prod
+      - Staging
+      - Dev
+      - Test
+    status:
+      - Active
+      - Maintenance
+      - Retired
+
+  problems:
+    problem_type:
+      - Known_Error
+      - RCA_Pending
+      - RCA_Confirmed
+    status:
+      - New
+      - Under_Investigation
+      - Resolved
+      - Closed
+    root_cause_code:
+      - Config
+      - Capacity
+      - Code
+      - Network
+      - Vendor
+      - Process
+      - Unknown
+
+  incidents:
+    status:
+      - New
+      - Assigned
+      - In_Progress
+      - Resolved
+      - Closed
+    priority:
+      - P1
+      - P2
+      - P3
+      - P4
+      - P5
+    impact:
+      - Low
+      - Medium
+      - High
+      - Critical
+    urgency:
+      - Low
+      - Medium
+      - High
+      - Critical
+
+  slas:
+    priority:
+      - P1
+      - P2
+      - P3
+      - P4
+      - P5

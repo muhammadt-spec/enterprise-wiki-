@@ -1,0 +1,68 @@
+{
+  "1": {
+    "restriction_subject_user_id": "1",
+    "restrictions_id": "1",
+    "user_id": "12",
+    "perm": "edit"
+  },
+  "2": {
+    "restriction_subject_user_id": "2",
+    "restrictions_id": "2",
+    "user_id": "8",
+    "perm": "edit"
+  },
+  "3": {
+    "restriction_subject_user_id": "3",
+    "restrictions_id": "2",
+    "user_id": "1",
+    "perm": "view"
+  },
+  "4": {
+    "restriction_subject_user_id": "4",
+    "restrictions_id": "3",
+    "user_id": "9",
+    "perm": "view"
+  },
+  "5": {
+    "restriction_subject_user_id": "5",
+    "restrictions_id": "3",
+    "user_id": "9",
+    "perm": "edit"
+  },
+  "6": {
+    "restriction_subject_user_id": "6",
+    "restrictions_id": "3",
+    "user_id": "18",
+    "perm": "view"
+  },
+  "7": {
+    "restriction_subject_user_id": "7",
+    "restrictions_id": "4",
+    "user_id": "9",
+    "perm": "edit"
+  },
+  "8": {
+    "restriction_subject_user_id": "8",
+    "restrictions_id": "4",
+    "user_id": "20",
+    "perm": "view"
+  },
+  "9": {
+    "restriction_subject_user_id": "9",
+    "restrictions_id": "4",
+    "user_id": "5",
+    "perm": "edit"
+  },
+  "10": {
+    "restriction_subject_user_id": "10",
+    "restrictions_id": "5",
+    "user_id": "14",
+    "perm": "edit"
+  },
+  "11": {
+    "restriction_subject_user_id": "11",
+    "restrictions_id": "5",
+    "user_id": "15",
+    "perm": "edit"
+  }
+}

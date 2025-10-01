@@ -1,0 +1,167 @@
+{
+  "1": {
+    "audit_id": "1",
+    "action": "publish",
+    "actor_id": "19",
+    "entity_type": "template",
+    "entity_id": "2",
+    "meta_json": null,
+    "timestamp": "2025-06-02T19:17:03",
+    "result": "failure",
+    "error_message": null
+  },
+  "2": {
+    "audit_id": "2",
+    "action": "delete",
+    "actor_id": "3",
+    "entity_type": "workflow",
+    "entity_id": "3",
+    "meta_json": null,
+    "timestamp": "2025-03-20T04:44:02",
+    "result": "failure",
+    "error_message": null
+  },
+  "3": {
+    "audit_id": "3",
+    "action": "publish",
+    "actor_id": "9",
+    "entity_type": "space",
+    "entity_id": "14",
+    "meta_json": null,
+    "timestamp": "2025-07-06T04:00:19",
+    "result": "failure",
+    "error_message": null
+  },
+  "4": {
+    "audit_id": "4",
+    "action": "revoke",
+    "actor_id": "18",
+    "entity_type": "template",
+    "entity_id": "16",
+    "meta_json": null,
+    "timestamp": "2025-06-02T13:50:01",
+    "result": "success",
+    "error_message": null
+  },
+  "5": {
+    "audit_id": "5",
+    "action": "delete",
+    "actor_id": "2",
+    "entity_type": "group",
+    "entity_id": "16",
+    "meta_json": null,
+    "timestamp": "2025-09-18T05:31:17",
+    "result": "failure",
+    "error_message": null
+  },
+  "6": {
+    "audit_id": "6",
+    "action": "delete",
+    "actor_id": "8",
+    "entity_type": "group",
+    "entity_id": "5",
+    "meta_json": null,
+    "timestamp": "2025-07-26T18:08:21",
+    "result": "success",
+    "error_message": null
+  },
+  "7": {
+    "audit_id": "7",
+    "action": "create",
+    "actor_id": "11",
+    "entity_type": "group",
+    "entity_id": "15",
+    "meta_json": null,
+    "timestamp": "2025-06-20T19:15:59",
+    "result": "success",
+    "error_message": null
+  },
+  "8": {
+    "audit_id": "8",
+    "action": "delete",
+    "actor_id": "7",
+    "entity_type": "template",
+    "entity_id": "11",
+    "meta_json": null,
+    "timestamp": "2025-05-22T11:45:24",
+    "result": "failure",
+    "error_message": null
+  },
+  "9": {
+    "audit_id": "9",
+    "action": "revoke",
+    "actor_id": "7",
+    "entity_type": "template",
+    "entity_id": "16",
+    "meta_json": null,
+    "timestamp": "2025-04-27T00:53:20",
+    "result": "success",
+    "error_message": null
+  },
+  "10": {
+    "audit_id": "10",
+    "action": "revoke",
+    "actor_id": "8",
+    "entity_type": "integration",
+    "entity_id": "11",
+    "meta_json": null,
+    "timestamp": "2025-09-08T00:57:00",
+    "result": "success",
+    "error_message": null
+  },
+  "11": {
+    "audit_id": "11",
+    "action": "grant",
+    "actor_id": "7",
+    "entity_type": "template",
+    "entity_id": "1",
+    "meta_json": null,
+    "timestamp": "2025-08-25T00:36:40",
+    "result": "failure",
+    "error_message": null
+  },
+  "12": {
+    "audit_id": "12",
+    "action": "revoke",
+    "actor_id": "8",
+    "entity_type": "workflow",
+    "entity_id": "15",
+    "meta_json": null,
+    "timestamp": "2025-07-25T06:52:04",
+    "result": "success",
+    "error_message": null
+  },
+  "13": {
+    "audit_id": "13",
+    "action": "revoke",
+    "actor_id": "11",
+    "entity_type": "template",
+    "entity_id": "19",
+    "meta_json": null,
+    "timestamp": "2025-09-22T16:14:45",
+    "result": "success",
+    "error_message": null
+  },
+  "14": {
+    "audit_id": "14",
+    "action": "revoke",
+    "actor_id": "14",
+    "entity_type": "user",
+    "entity_id": "1",
+    "meta_json": null,
+    "timestamp": "2025-08-04T02:41:45",
+    "result": "failure",
+    "error_message": null
+  },
+  "15": {
+    "audit_id": "15",
+    "action": "update",
+    "actor_id": "6",
+    "entity_type": "workflow",
+    "entity_id": "16",
+    "meta_json": null,
+    "timestamp": "2025-04-26T10:19:13",
+    "result": "failure",
+    "error_message": null
+  }
+}

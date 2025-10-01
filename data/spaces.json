@@ -1,42 +1,57 @@
 {
   "1": {
-    "space_key": "1",
-    "name": "Development Workspace",
-    "type": "knowledge",
-    "owner_group_id": "1",
-    "status": "active",
-    "created_by": "12",
-    "created_at": "2025-07-22T21:53:05.692055",
-    "updated_at": "2025-07-24T11:24:05.692055"
+    "space_id": "1",
+    "space_key": "EYIE",
+    "name": "Support Space 99",
+    "type": "Project",
+    "status": "Suspended",
+    "owner_group_id": "2",
+    "baseline_permissions_id": "1",
+    "created_at": "2025-08-02T01:16:20",
+    "updated_at": "2025-08-10T21:16:20"
   },
   "2": {
-    "space_key": "2",
-    "name": "White Hub",
-    "type": "knowledge",
-    "owner_group_id": "3",
-    "status": "active",
-    "created_by": "9",
-    "created_at": "2025-04-19T21:53:05.692055",
-    "updated_at": "2025-04-21T19:44:05.692055"
+    "space_id": "2",
+    "space_key": "TJWP",
+    "name": "Ops Space 49",
+    "type": "Knowledge",
+    "status": "Deactivated",
+    "owner_group_id": "5",
+    "baseline_permissions_id": "2",
+    "created_at": "2025-07-03T05:37:55",
+    "updated_at": "2025-07-11T00:37:55"
   },
   "3": {
-    "space_key": "3",
-    "name": "Yes Docs",
-    "type": "knowledge",
+    "space_id": "3",
+    "space_key": "ODMV",
+    "name": "Security Space 43",
+    "type": "Knowledge",
+    "status": "Active",
     "owner_group_id": "4",
-    "status": "active",
-    "created_by": "9",
-    "created_at": "2025-08-24T21:53:05.692055",
-    "updated_at": "2025-08-24T23:19:05.692055"
+    "baseline_permissions_id": "3",
+    "created_at": "2024-10-10T03:23:23",
+    "updated_at": "2024-10-16T03:23:23"
   },
   "4": {
-    "space_key": "4",
-    "name": "Our Hub",
-    "type": "team",
-    "owner_group_id": "5",
-    "status": "active",
-    "created_by": "4",
-    "created_at": "2025-05-31T21:53:05.692055",
-    "updated_at": "2025-06-01T00:01:05.692055"
+    "space_id": "4",
+    "space_key": "WGYU",
+    "name": "Support Space 65",
+    "type": "Department",
+    "status": "Deactivated",
+    "owner_group_id": "3",
+    "baseline_permissions_id": "4",
+    "created_at": "2025-07-30T19:43:16",
+    "updated_at": "2025-08-03T05:43:16"
+  },
+  "5": {
+    "space_id": "5",
+    "space_key": "UWAZ",
+    "name": "Product Space 83",
+    "type": "Department",
+    "status": "Deactivated",
+    "owner_group_id": "1",
+    "baseline_permissions_id": "5",
+    "created_at": "2024-10-24T12:12:58",
+    "updated_at": "2024-10-27T10:12:58"
   }
 }

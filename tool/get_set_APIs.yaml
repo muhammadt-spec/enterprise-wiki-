@@ -1,0 +1,150 @@
+interface_1:
+  set:
+    - create_user
+    - create_group
+    - add_group_member
+    - create_permission_set
+    - grant_permission
+    - create_workflow
+    - transition_page_workflow
+    - upload_attachment
+    - create_label
+    - apply_label_to_page
+    - create_template_simple
+    - create_restriction_set
+    - add_restriction_subjects
+    - create_incident
+    - create_configuration_item
+    - create_service
+    - create_problem
+    - create_sla
+    - start_incident_sla
+    - add_calendar_event
+  get:
+    - get_user_by_email
+    - get_group_members
+    - get_space_by_key
+    - get_pages_in_space
+    - get_attachments_for_page
+    - get_permissions_for_target
+    - get_incidents
+interface_2:
+  set:
+    - add_user_account
+    - register_group_entity
+    - include_user_in_group
+    - initialize_permission_set
+    - assign_permission_action
+    - define_workflow_rule
+    - log_workflow_transition_for_page
+    - add_attachment_to_page
+    - register_label_term
+    - tag_page_with_existing_label
+    - register_template_minimal
+    - define_restriction_policy
+    - attach_subjects_to_restriction
+    - open_incident_ticket
+    - register_configuration_item_entity
+    - register_service_entity
+    - open_problem_ticket
+    - define_sla_rule
+    - initiate_incident_sla_timer
+    - create_calendar_event_record
+  get:
+    - fetch_user_by_email_exact
+    - fetch_members_of_group
+    - fetch_space_by_exact_key
+    - fetch_pages_for_space
+    - fetch_attachments_for_page
+    - fetch_permissions_for_target
+    - fetch_incidents
+interface_3:
+  set:
+    - provision_user_profile
+    - create_team_grouping
+    - enroll_user_to_group
+    - bootstrap_permission_set
+    - authorize_permission_action
+    - configure_workflow_blueprint
+    - record_page_workflow_transition
+    - attach_file_to_page
+    - create_taxonomy_label
+    - label_page_with_tag
+    - create_template_record
+    - create_restriction_policy
+    - add_subjects_to_restriction
+    - create_incident_ticket
+    - create_ci_record
+    - create_service_record
+    - create_problem_ticket
+    - create_sla_rule
+    - begin_incident_sla_timer
+    - add_calendar_event_record
+  get:
+    - query_user_by_email
+    - list_group_members_users
+    - lookup_space_by_key
+    - list_pages_for_space
+    - list_attachments_for_page
+    - list_permissions_for_target
+    - list_incidents
+interface_4:
+  set:
+    - onboard_user_identity
+    - compose_group_container
+    - append_user_into_group
+    - seed_permission_set_bundle
+    - permit_action_assignment
+    - craft_workflow_spec
+    - capture_page_workflow_transition
+    - push_attachment_to_page
+    - publish_label_term
+    - affix_label_to_page
+    - persist_template_blueprint
+    - spawn_restriction_set
+    - map_subjects_to_restriction
+    - raise_incident_ticket
+    - persist_configuration_item
+    - provision_service_catalog_item
+    - raise_problem_record
+    - establish_sla_policy
+    - activate_incident_sla
+    - schedule_calendar_event
+  get:
+    - find_user_by_email_exact
+    - enumerate_group_members
+    - resolve_space_by_key
+    - enumerate_pages_in_space
+    - enumerate_attachments_for_page
+    - enumerate_permissions_for_target
+    - enumerate_incidents
+interface_5:
+  set:
+    - create_user_directory_entry
+    - form_group_catalog_entry
+    - add_member_to_group
+    - creates_permission_set_record
+    - grant_permission_action
+    - create_workflow_definition
+    - log_page_workflow_transition
+    - upload_attachment_for_page
+    - create_label_entry
+    - applies_label_to_page
+    - create_template_entry
+    - creates_restriction_set
+    - adds_restriction_subjects
+    - create_incident_record
+    - creates_configuration_item
+    - create_service_entry
+    - create_problem_record
+    - create_sla_policy
+    - starts_incident_sla
+    - create_calendar_event
+  get:
+    - gets_user_by_email
+    - gets_group_members
+    - gets_space_by_key
+    - gets_pages_in_space
+    - gets_attachments_for_page
+    - gets_permissions_for_target
+    - gets_incidents

@@ -1,0 +1,152 @@
+{
+  "1": {
+    "attachment_label_id": "1",
+    "attachment_id": "1",
+    "label_id": "12",
+    "applied_at": "2025-07-25T16:31:08"
+  },
+  "2": {
+    "attachment_label_id": "2",
+    "attachment_id": "1",
+    "label_id": "6",
+    "applied_at": "2025-09-19T00:33:58"
+  },
+  "3": {
+    "attachment_label_id": "3",
+    "attachment_id": "4",
+    "label_id": "7",
+    "applied_at": "2025-09-01T00:11:24"
+  },
+  "4": {
+    "attachment_label_id": "4",
+    "attachment_id": "6",
+    "label_id": "4",
+    "applied_at": "2025-07-01T07:16:49"
+  },
+  "5": {
+    "attachment_label_id": "5",
+    "attachment_id": "6",
+    "label_id": "5",
+    "applied_at": "2025-07-15T14:35:52"
+  },
+  "6": {
+    "attachment_label_id": "6",
+    "attachment_id": "7",
+    "label_id": "3",
+    "applied_at": "2025-09-02T17:03:39"
+  },
+  "7": {
+    "attachment_label_id": "7",
+    "attachment_id": "8",
+    "label_id": "1",
+    "applied_at": "2025-08-26T10:56:36"
+  },
+  "8": {
+    "attachment_label_id": "8",
+    "attachment_id": "10",
+    "label_id": "7",
+    "applied_at": "2025-08-21T05:41:10"
+  },
+  "9": {
+    "attachment_label_id": "9",
+    "attachment_id": "10",
+    "label_id": "12",
+    "applied_at": "2025-07-05T06:33:53"
+  },
+  "10": {
+    "attachment_label_id": "10",
+    "attachment_id": "12",
+    "label_id": "4",
+    "applied_at": "2025-08-08T20:23:45"
+  },
+  "11": {
+    "attachment_label_id": "11",
+    "attachment_id": "13",
+    "label_id": "11",
+    "applied_at": "2025-07-27T16:00:04"
+  },
+  "12": {
+    "attachment_label_id": "12",
+    "attachment_id": "14",
+    "label_id": "2",
+    "applied_at": "2025-06-27T23:14:42"
+  },
+  "13": {
+    "attachment_label_id": "13",
+    "attachment_id": "14",
+    "label_id": "9",
+    "applied_at": "2025-06-28T21:17:38"
+  },
+  "14": {
+    "attachment_label_id": "14",
+    "attachment_id": "17",
+    "label_id": "6",
+    "applied_at": "2025-08-03T11:13:57"
+  },
+  "15": {
+    "attachment_label_id": "15",
+    "attachment_id": "19",
+    "label_id": "8",
+    "applied_at": "2025-06-29T14:39:36"
+  },
+  "16": {
+    "attachment_label_id": "16",
+    "attachment_id": "21",
+    "label_id": "12",
+    "applied_at": "2025-06-11T09:08:14"
+  },
+  "17": {
+    "attachment_label_id": "17",
+    "attachment_id": "21",
+    "label_id": "6",
+    "applied_at": "2025-08-17T01:54:17"
+  },
+  "18": {
+    "attachment_label_id": "18",
+    "attachment_id": "22",
+    "label_id": "7",
+    "applied_at": "2025-06-21T14:47:37"
+  },
+  "19": {
+    "attachment_label_id": "19",
+    "attachment_id": "23",
+    "label_id": "2",
+    "applied_at": "2025-09-06T09:03:13"
+  },
+  "20": {
+    "attachment_label_id": "20",
+    "attachment_id": "24",
+    "label_id": "8",
+    "applied_at": "2025-09-27T18:47:24"
+  },
+  "21": {
+    "attachment_label_id": "21",
+    "attachment_id": "26",
+    "label_id": "10",
+    "applied_at": "2025-07-15T03:58:50"
+  },
+  "22": {
+    "attachment_label_id": "22",
+    "attachment_id": "27",
+    "label_id": "5",
+    "applied_at": "2025-09-01T20:38:59"
+  },
+  "23": {
+    "attachment_label_id": "23",
+    "attachment_id": "28",
+    "label_id": "10",
+    "applied_at": "2025-08-28T10:50:20"
+  },
+  "24": {
+    "attachment_label_id": "24",
+    "attachment_id": "28",
+    "label_id": "6",
+    "applied_at": "2025-08-29T17:59:04"
+  },
+  "25": {
+    "attachment_label_id": "25",
+    "attachment_id": "30",
+    "label_id": "2",
+    "applied_at": "2025-09-02T19:16:25"
+  }
+}

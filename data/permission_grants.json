@@ -1,0 +1,86 @@
+{
+  "1": {
+    "permission_grant_id": "1",
+    "permission_set_id": "1",
+    "subject_type": "group",
+    "subject_id": "6",
+    "action": "attach"
+  },
+  "2": {
+    "permission_grant_id": "2",
+    "permission_set_id": "1",
+    "subject_type": "user",
+    "subject_id": "11",
+    "action": "edit"
+  },
+  "3": {
+    "permission_grant_id": "3",
+    "permission_set_id": "2",
+    "subject_type": "user",
+    "subject_id": "13",
+    "action": "delete"
+  },
+  "4": {
+    "permission_grant_id": "4",
+    "permission_set_id": "2",
+    "subject_type": "group",
+    "subject_id": "6",
+    "action": "admin"
+  },
+  "5": {
+    "permission_grant_id": "5",
+    "permission_set_id": "2",
+    "subject_type": "user",
+    "subject_id": "1",
+    "action": "view"
+  },
+  "6": {
+    "permission_grant_id": "6",
+    "permission_set_id": "3",
+    "subject_type": "user",
+    "subject_id": "19",
+    "action": "delete"
+  },
+  "7": {
+    "permission_grant_id": "7",
+    "permission_set_id": "3",
+    "subject_type": "group",
+    "subject_id": "4",
+    "action": "delete"
+  },
+  "8": {
+    "permission_grant_id": "8",
+    "permission_set_id": "3",
+    "subject_type": "user",
+    "subject_id": "14",
+    "action": "attach"
+  },
+  "9": {
+    "permission_grant_id": "9",
+    "permission_set_id": "4",
+    "subject_type": "group",
+    "subject_id": "2",
+    "action": "attach"
+  },
+  "10": {
+    "permission_grant_id": "10",
+    "permission_set_id": "5",
+    "subject_type": "user",
+    "subject_id": "14",
+    "action": "delete"
+  },
+  "11": {
+    "permission_grant_id": "11",
+    "permission_set_id": "5",
+    "subject_type": "user",
+    "subject_id": "12",
+    "action": "comment"
+  },
+  "12": {
+    "permission_grant_id": "12",
+    "permission_set_id": "5",
+    "subject_type": "group",
+    "subject_id": "6",
+    "action": "view"
+  }
+}

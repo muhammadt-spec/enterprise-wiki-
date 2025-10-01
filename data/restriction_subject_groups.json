@@ -1,0 +1,56 @@
+{
+  "1": {
+    "restriction_subject_group_id": "1",
+    "restrictions_id": "2",
+    "group_id": "1",
+    "perm": "edit"
+  },
+  "2": {
+    "restriction_subject_group_id": "2",
+    "restrictions_id": "2",
+    "group_id": "1",
+    "perm": "view"
+  },
+  "3": {
+    "restriction_subject_group_id": "3",
+    "restrictions_id": "2",
+    "group_id": "4",
+    "perm": "edit"
+  },
+  "4": {
+    "restriction_subject_group_id": "4",
+    "restrictions_id": "3",
+    "group_id": "4",
+    "perm": "view"
+  },
+  "5": {
+    "restriction_subject_group_id": "5",
+    "restrictions_id": "3",
+    "group_id": "3",
+    "perm": "edit"
+  },
+  "6": {
+    "restriction_subject_group_id": "6",
+    "restrictions_id": "3",
+    "group_id": "2",
+    "perm": "edit"
+  },
+  "7": {
+    "restriction_subject_group_id": "7",
+    "restrictions_id": "4",
+    "group_id": "4",
+    "perm": "edit"
+  },
+  "8": {
+    "restriction_subject_group_id": "8",
+    "restrictions_id": "4",
+    "group_id": "4",
+    "perm": "view"
+  },
+  "9": {
+    "restriction_subject_group_id": "9",
+    "restrictions_id": "4",
+    "group_id": "4",
+    "perm": "edit"
+  }
+}
